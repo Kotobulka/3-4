@@ -1,12 +1,11 @@
-﻿var
+var
   sum, pro, f, j: int64;
 
 begin
   sum := 0;
-  j := 1;
   pro := 1;
-  readln(f);
-  while f <> j - 1 do
+  readln(f, j);
+  while f <> j do
   begin
     if j mod 2 = 1 then sum := sum + j else pro:=pro*j;
     j := j + 1;
